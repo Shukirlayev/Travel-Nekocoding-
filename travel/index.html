@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel | Nekocoding</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Neko<span>oo</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Bosh sahifa</a></li>
+        <li><a href="#service">Xizmatlar</a></li>
+        <li><a href="#destination">Manzillar</a></li>
+        <li><a href="#trip">Sayohatlar</a></li>
+        <li><a href="#client">Mijozlar</a></li>
+      </ul>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h3 class="section__subheader">DUNYO BO'YICHA ENG YAXSHI JOYLAR</h3>
+        <h1>Sayohat qiling, zavqlaning va yangi hayot kechiring</h1>
+        <p>
+          Bu oddiylikdan xalos bo'lishga, turli madaniyatlarga sho'ng'ishga va
+          atrofingizdagi dunyoning go'zalligini qabul qilishga taklifdir. Har
+          bir safar hayotingizni to'liq imkoniyatda yashash hikoyangizdagi bir
+          bob bo'lsin.
+        </p>
+        <div class="header__btns">
+          <button class="btn">Batafsil ma'lumot olish</button>
+          <a href="#">
+            <span><i class="ri-play-fill"></i></span>
+            Sinab Ko'rish
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container service__container" id="service">
+      <h3 class="section__subheader">KATEGORIYA</h3>
+      <h2 class="section__header">Biz Eng Yaxshi Xizmatlarni Taklif Qilamiz</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="assets/weather.png" alt="service" />
+          <h4>Hisoblangan Ob-havo</h4>
+          <p>
+            Sayohatingizni oldindan rejalashtirib, manzilingizning sharoitlariga
+            mos aniq ob-havo prognozlari bilan oldinda bo'ling.
+          </p>
+        </div>
+        <div class="service__card">
+          <img src="assets/plane.png" alt="service" />
+          <h4>Eng Yaxshi Reyslar</h4>
+          <p>
+            Xohishlaringiz va byudjetingizga mos eng yaxshi reys variantlariga
+            maxsus kirish imkoniyatini oching.
+          </p>
+        </div>
+        <div class="service__card">
+          <img src="assets/event.png" alt="service" />
+          <h4>Mahalliy Tadbirlar</h4>
+          <p>
+            Sayohatdagi mahalliy tadbirlar va voqealar haqida ma'lumotlar bilan
+            manzilingizning jonli ritmiga sho'ng'ib keting.
+          </p>
+        </div>
+        <div class="service__card">
+          <img src="assets/customisation.png" alt="service" />
+          <h4>Moslashtirish</h4>
+          <p>
+            Sayohatingizni shaxsiylashtirilgan moslashtirishlar bilan sozlang,
+            har bir detallning sizning o'zgacha sayohat uslubingizni aks
+            ettirishini ta'minlang.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container destination__container" id="destination">
+      <h3 class="section__subheader">ENG KO'P SOTILGAN</h3>
+      <h2 class="section__header">Eng Mashhur Manzillar</h2>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="destination__details">
+            <div>
+              <h4>Rim, Italiya</h4>
+              <h4>$5.42k</h4>
+            </div>
+            <p>
+              <span><i class="ri-navigation-fill"></i></span>
+              10 kunlik sayohat
+            </p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="destination__details">
+            <div>
+              <h4>London, Buyuk Britaniya</h4>
+              <h4>$4.2k</h4>
+            </div>
+            <p>
+              <span><i class="ri-navigation-fill"></i></span>
+              12 kunlik sayohat
+            </p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="destination__details">
+            <div>
+              <h4>Butun Yevropa</h4>
+              <h4>$15k</h4>
+            </div>
+            <p>
+              <span><i class="ri-navigation-fill"></i></span>
+              28 kunlik sayohat
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trip__container" id="trip">
+      <div class="trip__image">
+        <img src="assets/trip.png" alt="trip" />
+      </div>
+      <div class="trip__content">
+        <h3 class="section__subheader">OSON VA TEZ</h3>
+        <h2 class="section__header">
+          Kelgusi Sayohatingizni 3 Ta Oson Qadamda Bron Qiling
+        </h2>
+        <ul class="trip__list">
+          <li>
+            <span><i class="ri-signpost-line"></i></span>
+            <div>
+              <h4>Manzilni Tanlang</h4>
+              <p>
+                Bizning maxsus tanlangan ekzotik joylar, gavjum shaharlarga va
+                tinch dam olish joylariga oid manzillardan orzu qilgan
+                manzilingizni tanlang.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-secure-payment-line"></i></span>
+            <div>
+              <h4>To'lovni Amalga Oshirish</h4>
+              <p>
+                Bizning soddalashtirilgan to'lov jarayoni orqali sayohatingizni
+                osonlik bilan xavfsiz tarzda ta'minlang, shunda bron qilish
+                jarayoni muammosiz bo'ladi.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-flight-takeoff-line"></i></span>
+            <div>
+              <h4>Tanlangan Sanada Aeroportga Yetib Boring</h4>
+              <p>
+                Sayohat rejalaringizni yakunlayotganda, tanlangan sanada
+                aeroportga yetib boring va keyingi unutilmas sayohatingizni
+                boshlashga tayyor bo'ling.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__content">
+        <h3 class="section__subheader">FIKR-MULOHAZALAR</h3>
+        <h2 class="section__header">Odamlar Biz Haqimizda Nima Deyishadi</h2>
+      </div>
+      <div class="client__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div class="client__card__content">
+                  <p>
+                    Bu platforma orqali sayohatlarimni bron qilish haqiqatan ham
+                    katta o'zgarish bo'ldi! Tushunarli interfeysdan tortib,
+                    muammosiz bron qilish jarayonigacha, yangi manzillarga
+                    sayohat qilishni hech qachon bu qadar hayajonli his qilmagan
+                    edim.
+                  </p>
+                  <h4>Palonchi Palonchieva</h4>
+                  <h5>Sayohat Ixlosmandi</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div class="client__card__content">
+                  <p>
+                    As a busy professional, time is of the essence. This website
+                    made planning my vacation a breeze, allowing me to focus on
+                    what matters most: making memories with my family.
+                  </p>
+                  <h4>David Nguyen</h4>
+                  <h5>Business Executive</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div class="client__card__content">
+                  <p>
+                    I've been using this service for years, and it never
+                    disappoints. The convenience of booking my flights,
+                    accommodations, and activities all in one place saves me
+                    time and stress every trip.
+                  </p>
+                  <h4>Michael Johnson</h4>
+                  <h5>Frequent Flyer</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Nek<span>oo</span>.</a>
+          </div>
+          <p>
+            Bizning platformamiz sizning sayohatlaringizga muammosiz yo'l
+            ochuvchi pasportingizdir, u tanlangan manzillar va foydalanuvchi
+            uchun qulay bron qilish tajribasini taklif etadi.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Kompaniya</h4>
+          <ul class="footer__links">
+            <li><a href="#">Biz Haqimizda</a></li>
+            <li><a href="#">Karyera</a></li>
+            <li><a href="#">Mobil</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li><a href="#">Yordam/FAQ</a></li>
+            <li><a href="#">Matbuot</a></li>
+            <li><a href="#">Hamkorlar</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+          <h5>Bizning Ilovamiz</h5>
+          <div class="footer__discover">
+            <a href="#"><img src="assets/google-play.jpg" alt="discover" /></a>
+            <a href="#"><img src="assets/app-store.jpg" alt="discover" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Mualliflik huquqi © 2024 Nekocoding. Barcha huquqlar himoyalangan.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
